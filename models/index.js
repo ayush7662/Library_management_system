@@ -1,8 +1,8 @@
 const { sequelize } = require("../config/db");
 
 // Ensure models are loaded after sequelize init
-const User = require("./user");
-const Book = require("./book");
+const User = require("./User");
+const Book = require("./Book");
 const Borrow = require("./borrow");
 
 // Associations (use model field names)
